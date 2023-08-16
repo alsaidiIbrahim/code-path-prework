@@ -1,0 +1,63 @@
+/* Navbar styles */
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+}
+
+#navbar__list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar__list li a {
+    display: block;
+    color: #ff0066;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#navbar__list li a:hover,
+#navbar__list li a.active {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Section styles */
+.landing__container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+section {
+    min-height: 100vh;
+}
+
+section.active {
+    display: block;
+}
+
+/* Miscellaneous styles */
+.main__hero {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
